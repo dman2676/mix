@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">djblue1.3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cafe_mocha">Cafe Mocha</string>
+    <string name="picture1">picture1</string>
+    <string name="dj_blue_s_hot_mix">Dj Blue\'s Hot Mix</string>
+    <string name="stepper_s_mix">Stepper\'s Mix</string>
+    <string name="exit">Exit</string>
+    <string name="created_by_dlittle_tru_avidity_com">Created by DLittle /tru-avidity.com</string>
+    <string name="dino_picture">dino_picture</string>
+    <string name="spintables">spinTables</string>
+</resources>

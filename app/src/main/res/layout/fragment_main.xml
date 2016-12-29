@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.truavidity.dman26.djblue13.Fragment.MainFragment"
+    android:background="@drawable/dj_bluegradient">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dino_image"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="fill_vertical|center_horizontal|center" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Dj Blue's Hot Mix"
+        android:id="@+id/button0"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shap_button"
+        android:layout_marginTop="40dp"
+        android:textColor="#870ee4" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Old School hip hop"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shap_button"
+        android:layout_marginTop="10dp"
+        android:textColor="#870ee4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Stepper's Mix"
+        android:id="@+id/videoButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shap_button"
+        android:layout_marginTop="10dp"
+        android:textColor="#870ee4"
+        android:onClick="videoPlay"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Exit"
+        android:id="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shap_button"
+        android:textColor="#870ee4"
+        android:onClick="clickExit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by DLittle /tru-avidity.com"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>
+
+</FrameLayout>
